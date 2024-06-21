@@ -122,51 +122,81 @@ section:nth-of-type(2) div:nth-of-type(3) {
 @media (max-width: 500px) {
     body {
         padding: 10px;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
     }
     
     section {
         display: block;
-        width: 100%;
+        width: 85vw;
         margin: 50px auto;
+        align-items: center;
+        text-align: center;
+        
     }
 
     .heading {
-        width: 100%;
+        width: 85vw;
         text-align: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .heading h1 {
         font-size: 2rem;
-        width: 100%;
+        width: 85vw;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .heading p {
         font-size: 1rem;
-        width: 100%;
+        width: 85vw;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .ratings {
-        width: 100%;
+        width: 85vw;
         text-align: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .ratings .review, .ratings .report-guru, .ratings .best-tech {
         margin: 0 auto 10px;
+        align-items: center;
+        text-align: center;
+       
     }
 
     section:nth-of-type(2) {
         display: block;
-        width: 100%;
+        width: 90vw;
         margin-bottom: 50px;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .details {
-        width: 100%;
+        width: 85vw;
         margin-bottom: 20px;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
     }
 
     section:nth-of-type(2) div:nth-of-type(2), 
     section:nth-of-type(2) div:nth-of-type(3) {
         margin-top: 0;
+        align-items: center;
+        text-align: center;
+        margin: 20px auto;
     }
 }
