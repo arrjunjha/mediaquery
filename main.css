@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+
+.heading {
+    margin-bottom: 50px;
+    width: 40%;
+}
+
+.heading h1 {
+    font-size: 2.9rem;
+    color: #511F50;
+    width: 90%;
+}
+
+.heading p {
+    color: #511F50;
+    font-size: 1.1rem;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.ratings .review, .ratings .report-guru, .ratings .best-tech {
+    display: flex;
+    align-items: center;
+    background: #efeaef;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+
+.ratings .img {
+    display: flex;
+    gap: 5px;
+}
+
+.ratings p {
+    margin: 0 0 0 15px;
+    font-weight: bold;
+}
+
+.ratings .review{
+    margin-right: 100px;
+}
+
+.ratings .report-guru{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ratings .best-tech{
+    margin-left: 100px;
+}
+
+
+section:nth-of-type(2) {
+    display: flex;
+    align-items: flex-start;
+    width: 80vw;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    gap: 20px;
+}
+.details {
+    width: 30%;
+    background-color: #511F50;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    
+}
+section:nth-of-type(2) div:nth-of-type(2) {
+    margin-top: 40px;
+}
+section:nth-of-type(2) div:nth-of-type(3) {
+    margin-top: 80px;
+}
+.photohead {
+    display: flex;
+    /* align-items: center; */
+    margin-bottom: 20px;
+}
+.photohead img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    
+}
+.photohead h2 {
+    margin: 0;
+    font-size: 1.2em;
+    width: 150px;
+    
+}
+.verified {
+    width: 20px;
+    color: #FF66CC;
+    font-size: 0.9em;
+}
+.testimonial {
+    font-size: 1em;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+
+@media (max-width: 500px) {
+    body {
+        padding: 10px;
+    }
+    
+    section {
+        display: block;
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    .heading {
+        width: 100%;
+        text-align: center;
+    }
+
+    .heading h1 {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .heading p {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .ratings {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ratings .review, .ratings .report-guru, .ratings .best-tech {
+        margin: 0 auto 10px;
+    }
+
+    section:nth-of-type(2) {
+        display: block;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .details {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    section:nth-of-type(2) div:nth-of-type(2), 
+    section:nth-of-type(2) div:nth-of-type(3) {
+        margin-top: 0;
+    }
+}
